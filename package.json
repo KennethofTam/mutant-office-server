@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/KennethofTam/mutant-office-server/issues"
   },
-  "homepage": "https://github.com/KennethofTam/mutant-office-server#readme"
+  "homepage": "https://github.com/KennethofTam/mutant-office-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "firebase": "^3.0.5",
+    "twilio": "^2.9.1"
+  }
 }
