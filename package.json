@@ -1,0 +1,19 @@
+{
+  "name": "kenneth",
+  "version": "0.1.0",
+  "description": "node server for connecting to firebase and sending texts and emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kenneth Tam",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennethofTam/mutant-office-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KennethofTam/mutant-office-server/issues"
+  },
+  "homepage": "https://github.com/KennethofTam/mutant-office-server#readme"
+}
