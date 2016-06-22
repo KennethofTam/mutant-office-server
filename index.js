@@ -27,9 +27,9 @@ var textsRef = rootRef.child('texts');
 textsRef.on('child_added', function(snapshot) {
   var text = snapshot.val();
   twilioClient.messages.create({
-    body: text.name + ", I am a machine here for " + text.topic + "",
+    body: text.name + ", I am a machine, here for " + text.topic + "",
     to: '+12607973961',  // Text this number
-    from: process.env.TWILIO_NUMBER // From a valid Twilio number
+    from: process.env.TWILIO_PHONE// From a valid Twilio number
   }, function(err, message) {
       if (err) {
         console.log(err.message);
